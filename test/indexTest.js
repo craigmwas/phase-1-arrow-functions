@@ -1,4 +1,15 @@
 require ( './helpers.js' );
+function divide(a,b) {
+  return a/b
+}
+function square(x) {
+  return x*x
+}
+function add(a,b) {
+  return a+b
+}
+
+
 
 describe("index.js", () => {
   it("has a function expression called divide", () => {
